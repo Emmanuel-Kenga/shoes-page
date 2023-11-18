@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--About-->
+    
+    <div class="about" id="About">
+        
+        <h1>Web<span>About</span></h1>
+
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="image/red_shoes1.png" onclick="functio(this)">
+                    <img src="image/red_shoes2.png" onclick="functio(this)">
+                    <img src="image/red_shoes3.png" onclick="functio(this)">
+                    <img src="image/red_shoes4.png" onclick="functio(this)">
+                </div>
+
+                <div class="image_contaner">
+                    <img src="image/red_shoes1.png" id="imagebox">
+                </div>
+
+            </div>
+
+            <div class="about_text">
+                <p>
+                    Welcome to our sports shows website! We are dedicated to bringing you the latest and greatest in the world of sports entertainment. 
+                    Our website is a one-stop-shop for all your sports needs, 
+                    from live scores and highlights to exclusive games and fantasy sports.
+                    Our team of experienced writers and sports enthusiasts work tirelessly to bring you the most captivating and informative content.
+                    We cover a wide range of sports, including football, basketball, baseball, soccer, hockey, and more. Whether you’re a die-hard fan or just a casual observer, we’ve got you covered.
+                    We also offer a wide range of sports shows that cater to all kinds of audiences.
+                    From documentaries and biopics to talk shows and game shows, our programming is designed to keep you entertained and informed.
+                    Our shows feature some of the biggest names in sports, as well as up-and-coming stars and legends of the past.
+                    So, whether you’re looking for the latest scores, highlights, or news, or just want to sit back and enjoy some great sports programming, you’ve come to the right place. 
+                    We hope you enjoy our website and look forward to bringing you the best in sports entertainment.
+                </p>
+            </div>
+
+        </div>
+
+        <a href="#" class="about_btn">Shop Now</a>
+
+        <script>
+            function functio(small){
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+        </script>
+        
+    </div>
+</body>
+</html>
+
+<!--reviewa-->
+<div class="review" id="Review">
+    <h1>Customer's<span>review</span></h1>
+    
+    <div class="review_box">
+        <div class="review_card">
+            <div class="card_top">
+                <div class="profile">
+
+                    <div class="profile_image">
+                        <img src="image/girl_dp1.jpg">
+                    </div>
+
+                    <div class="name">
+                        <strong>Ranidi Lochana</strong>
+
+                        <div class="like">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    These shows are incredibly comfortable, and I love their stylish design.
+                    They provide a snug fit,and I,ve worn them all day without any discomfort.
+                    They seem to be holding up well,even after several months use.
+                    I believe they offer excellent value for the price. Highly recommende!
+                </p>
+            </div>
+        </div>   
+
+        <div class="review_card">
+            <div class="card_top">
+                <div class="profile">
+
+                    <div class="profile_image">
+                        <img src="image/Alex.png">
+                    </div>
+
+                    <div class="name">
+                        <strong>Alex Kitheka</strong>
+
+                        <div class="like">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    These shoes are an absolute delight. 
+                    The refined design and impeccable craftsmanship make them my go-to for any formal event.
+                </p>
+            </div>
+        </div>   
+
+        <div class="review_card">
+            <div class="card_top">
+                <div class="profile">
+
+                    <div class="profile_image">
+                        <img src="image/ones.png.png">
+                    </div>
+
+                    <div class="name">
+                        <strong>Onesmas</strong>
+
+                        <div class="like">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    Unmatched comfort! I wear these all day at work without a hint of discomfort.
+                     Truly remarkable.
+                </p>
+            </div>
+        </div>   
+
+    </div>
+
+    <div class="review_box">
+        <div class="review_card">
+            <div class="card_top">
+                <div class="profile">
+
+                    <div class="profile_image">
+                        <img src="image/brayo.png.png">
+                    </div>
+
+                    <div class="name">
+                        <strong>Brayan Kiplagat</strong>
+
+                        <div class="like">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    Finally found shoes that fit like a glove. 
+                    They hug my feet just right and feel like they were made for me
+                </p>
+            </div>
+        </div>   
+        <div class="review_card">
+            <div class="card_top">
+                <div class="profile">
+                    <div class="profile_image">
+                        <img src="image/kenga.jpg">
+                    </div>
+                    <div class="name">
+                        <strong>Kenga Emmanuel</strong>
+                        <div class="like">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    A great deal for the quality you get.
+                     These shoes look and feel high-end without breaking the bank.
+                </p>
+            </div>
+        </div>   
+        <div class="review_card">
+            <div class="card_top">
+                <div class="profile">
+                    <div class="profile_image">
+                        <img src="image/Eric.png">
+                    </div>
+                    <div class="name">
+                        <strong>Eric Mtunga</strong>
+                        <div class="like">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    I put these shoes through some serious tests, and they've held up remarkably well. 
+                    Perfect for my outdoor adventures
+                </p>
+            </div>
+        </div>   
+    </div>
+</div>
