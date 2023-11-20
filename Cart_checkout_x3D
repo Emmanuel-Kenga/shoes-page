@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Shoe Store</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <div id="checkout-items"></div>
+
+    <script>
+        // Retrieve cart items from local storage
+        const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+
+        // Display selected items and prices
+        function displayCheckoutItems() {
+            const checkoutContainer = document.getElementById('checkout-items');
+            let total = 0;
+
+            cartItems.forEach(item => {
+                total += item.price;
+                checkoutContainer.innerHTML += `<p>${item.name} - $${item.price.toFixed(2)}</p>`;
+            });
+
+            // Display total price
+            checkoutContainer.innerHTML += `<p>Total: $${total.toFixed(2)}</p>`;
+        }
+
+        // Call the function to display checkout items
+        displayCheckoutItems();
+    </script>
+</body>
+</html>
